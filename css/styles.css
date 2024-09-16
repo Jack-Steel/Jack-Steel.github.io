@@ -63,10 +63,14 @@ main{
 	color: #ffffff;
 }
 
-#yellowstone {
+#bitmoji{
 	width: 45%;
 	float: left;
 	padding: 2%;
+}
+
+#bitmoji img{
+	width: 70%
 }
 
 #introduction{
