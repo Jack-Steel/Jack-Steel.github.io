@@ -93,6 +93,7 @@ main{
 
 #cedarPoint img{
 	width: 95%;
+	border: 8px solid #fff;
 }
 
 #hobbies{
@@ -103,6 +104,10 @@ main{
 
 #projects{
 	padding: 1%;
+}
+
+#projects h2{
+	text-align: center;
 }
 
 #contact{
