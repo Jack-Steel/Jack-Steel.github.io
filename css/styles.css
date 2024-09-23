@@ -23,26 +23,36 @@ img{
 
 /*Header rules*/
 header{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 	color: white;
+	background-color: #5e41f0;
 	text-align: center;
-	padding: 1%;
 }
 
 /*Nav styles*/
 nav{
 	background-color: #25118c;
+	margin-bottom: 1%;
 }
 
 nav ul{
-	margin: 0;
+	list-style-type: none;
 	text-align: center;
 }
 
 nav li{
 	display: inline-block;
 	font-size: 2em;
-	font-family: Courier, Arial, sans-serif;
+	font-family: "Playwrite DE Grund", Courier, Arial, sans-serif;
 	font-weight: bold;
+}
+
+nav li:first-child{
+	border-top: none;
 }
 
 nav li a{
@@ -53,6 +63,14 @@ nav li a{
 	padding-left: 2em;
 	padding-right: 2em;
 	text-decoration: none;
+}
+
+/* Show mobible class, hide tablet-desktop class*/
+.mobile{
+	display: block;
+}
+.tablet-desktop{
+	display: none;
 }
 
 /*Main styles*/
@@ -93,7 +111,7 @@ main{
 
 #cedarPoint img{
 	width: 95%;
-	border: 8px solid #fff;
+	border-radius: 25px;
 }
 
 #hobbies{
@@ -115,21 +133,9 @@ main{
 	text-align: center;
 }
 
-
-#email{
-	clear: both;
-	width: 45%;
-	padding: 2%;
-	float: left;
-	text-decoration: none;
-	text-align: center;
-}
-
-.map{
-	width: 45%;
-	padding: 2%;
-	float: right;
-	border: 0;
+#contact iframe{
+	width: 30%;
+	border: 5px solid #964fd0;;
 }
 
 .external{
