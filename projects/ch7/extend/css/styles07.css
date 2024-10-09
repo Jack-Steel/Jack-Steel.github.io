@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: jack Steel
+Date: 10/9/2024
+File Name: styles07.css
 */
 
 /* CSS Reset */
@@ -29,6 +29,13 @@ header {
 /* Style rules for main content  */
 main {
 	background-color: #fff;
+}
+
+article{
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px solid lightgreen;
+	text-align: justify;
 }
 
 aside {

@@ -5,7 +5,7 @@ Date: 9/10/2024
 */
 
 /* CSS Reset */
-body, header, nav, footer, main, h1, div, img, ul, figure, figcaption{
+body, header, nav, footer, main, h1, div, img, ul, figure, figcaption, section, article, aside{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -85,6 +85,26 @@ main{
 	font-family: 'Roboto Slab', serif;
 }
 
+.mobile h3{
+	text-shadow: 5px 5px 8px #ccc;
+}
+
+article h3{
+	text-align: center;
+}
+
+article img{
+	margin: 0 auto;
+}
+
+article ul{
+	margin-left: 10%;
+}
+
+article:nth-of-type(2){
+	background-color: rgba(204, 204, 204, 0.3);
+}
+
 .tel-link{
 	background-color: #404040;
 	padding: 2%;
@@ -109,6 +129,7 @@ main{
 	font-size: 1.35em;
 	color: #660;
 	font-weight: bold;
+	text-shadow: 5px 5px 8px #ccc;
 }
 
 .frame{
@@ -185,7 +206,6 @@ footer p a{
 	}
 
 	header{
-		position: static;
 		padding-bottom: 2%;
 	}
 
@@ -211,6 +231,33 @@ footer p a{
 	/* Tablet Viewport: Style rules for main content*/
 	main ul{
 		margin: 0 0 4% 10%;
+	}
+
+	.grid{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 20px;
+	}
+
+	.pic-text{
+		font-size: 1em;
+		padding: 10px;
+	}
+
+	aside{
+		text-align: center;
+		font-size: 1.25em;
+		font-style: italic;
+		font-weight: bold;
+		padding: 2%;
+		background-color: rgba(204, 204, 204, 0.5);
+		box-shadow: 5px 5px 8px #000;
+		text-shadow: 5px 5px 5px #b3b3b3;
+		border-radius: 0 15px;
+	}
+
+	.grid-item4{
+		grid-column: 1 / span 3;
 	}
 
 	#excercises{
@@ -274,6 +321,24 @@ footer p a{
 
 	main h1{
 		font-size: 1.8em;
+	}
+
+	article h3{
+		font-size: 1.75em;
+	}
+
+	.pic-text{
+		font-size: 1.5em;
+		padding: 20px;
+	}
+
+	.frame{
+		opacity: 0.9;
+	}
+
+	.frame:hover{
+		opacity: 1;
+		box-shadow: 8px 8px 10px #808080;
 	}
 
 	#weights, #cardio, #training{
