@@ -1,0 +1,57 @@
+/* 
+    Name: Jack Steel
+    Date: 10/18/2024
+*/
+
+body{
+    background-color: #ffe5dc;
+    font-family: sans-serif;
+}
+
+caption{
+    color: #521803;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding: 1%;
+}
+
+table{
+    width: 80%;
+	top: 0;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid #fd4d0c;
+    box-shadow: 10px 10px 10px #792101
+}
+
+table, tr, th, td{ /*Positions the border*/
+	border-collapse: collapse;
+    padding: 2%;
+	margin-top: 2%;
+}
+
+table, tr, th, td{ /*Positions the border*/
+	border-collapse: collapse;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+td{ /*Adds a border between the rows*/
+	border: 1px solid #a22c02;
+}
+
+tr:nth-child(odd){ /*Changes the color for every other row*/
+	background-color: #fe9772;
+}
+
+th{
+    border: 1px solid white;
+    background-color: #521803;
+    color: white;
+}
+
+footer {
+	padding: 1%;
+	text-align: center;
+}

@@ -1,0 +1,58 @@
+/*
+Author: Jack Stee;
+Date: 10/18/2024
+File Name: apply08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/*Style Rules for main content*/
+table{ /*Sets the size and margins of the table*/
+	width: 80%;
+	top: 0;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #71881b
+}
+
+
+table, tr, th, td{ /*Positions the border*/
+	border-collapse: collapse;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+th, td{ /*Adds a border between the rows*/
+	border: 1px solid #71881b;
+}
+
+td{ /*Centers the text*/
+	text-align: center;
+}
+
+tr:nth-child(odd){ /*Changes the color for every other row*/
+	background-color: #d3e788;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
