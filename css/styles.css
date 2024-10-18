@@ -5,7 +5,7 @@
 */
 
 /*CSS Reset*/
-body, header, nav, main, footer, img, h1, h2, h3 {
+body, header, nav, main, footer, img, h1, h2, h3, section, article, aside {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -103,12 +103,6 @@ main{
 	text-align: center;
 }
 
-#cedarPoint{
-	width: 40%;
-	float: left;
-	padding: 2%;
-}
-
 .frame{
 	position: relative;
 	max-width: 450px;
@@ -128,11 +122,9 @@ main{
 	font-size: 1.5em;
 }
 
-
 #hobbies{
-	width: 45%;
-	float: right;
-	padding: 2%;
+	padding-left: 1%;
+	text-align: left;
 }
 
 #projects{
@@ -148,15 +140,19 @@ h2{
 	text-align: center;
 }
 
-#contact iframe{
-	width: 30%;
-	border: 5px solid #964fd0;;
-}
-
 .external{
 	clear: both;
 	text-decoration: none;
 	color: white;
+}
+
+#skiing{
+	margin: auto;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background: radial-gradient(#589afc, #3363ab);
+	background-color: #f2f2f2;
+	padding: 1% 2%;
 }
 
 /*Footer styles*/
@@ -174,6 +170,7 @@ footer p a{
 	color: #fff;
 	text-decoration: none;
 }
+
 
 /*Media Query for tablet viewport*/
 @media screen and (min-width:630px), print{
@@ -193,6 +190,30 @@ footer p a{
 	nav li a:hover{
 		color: #000;
 		background-color: #2727f2
+	}
+
+	#cedarPoint{
+		width: 40%;
+		float: left;
+		padding: 2%;
+	}
+
+	#hobbies{
+		width: 45%;
+		float: right;
+		padding: 2%;
+	}
+
+	#contact iframe{
+		margin: auto;
+		width: 30%;
+		border: 5px solid #964fd0;;
+	}
+
+	#ski{
+		height: 200px;
+		width: auto;
+		margin: auto;
 	}
 }
 
