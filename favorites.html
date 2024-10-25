@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--Jack Steel
-index.html
+template.html
 8/30/24-->
 <html lang="en">
 	<head>
@@ -14,26 +14,11 @@ index.html
 	</head>
 	
 	<body>
-		<!--Mobile Nav-->
-		<nav class="mobile-nav">
-			<div id="menu-links">
-				<a href="index.html">Home</a>
-				<a href="about.html">About Us</a>
-				<a href="classes.html">Classes</a>
-				<a href="nutrition.html">Nutrition</a>
-				<a href="contact.html">Contact Us</a>
-			</div>
-			<a class="menu-icon" onclick="hamburger()">
-				<div>&#9776;</div>
-			</a>
-		</nav>
-
-		<!-- Use the header area for the website name or logo -->
-		<header id="head">
+		<header>
 			<h1>Jack Steel</h1>
 			<h2>Programming and Software Devolpment</h2>
 		</header>
-
+		
 		<!--Tablet, Desktop Nav-->
 			<nav>
 				<ul>
@@ -46,16 +31,16 @@ index.html
 				</ul>
 			</nav>
 		
-		
 		<main>
-		
-			<section id="intro">
-			
-				<p id="bitmoji"><img src="images/bitmoji.png" alt="Yellowstone Grand Canyon"></p>
-				<p id="introduction">My name is Jack Steel, and I am in Programming and Software Devolpment for the CVCC</p>
-				
-			</section>
-			
+			<div class="movie">
+				<h3>Favorite Movie</h3>
+				<iframe height="250px" width="350px" src="https://www.youtube.com/embed/mfmrPu43DF8?si=bx7wbsaAOsxbwK5N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+
+			<div class="video-game">
+				<h3>Video Game</h3>
+				<iframe height="250px" width="350px" src="https://www.youtube.com/embed/IkVt1s_ZFbw?si=xq_a4g8OPipaa3Zf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
 		</main>
 		
 		<footer>
