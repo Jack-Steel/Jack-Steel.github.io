@@ -1,69 +1,111 @@
 <!DOCTYPE html>
-<!--Jack Steel
-about.html
-8/30/24-->
-<html lang="en">
-	<head>
-		<title>Jack Steel</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/styles.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
-	</head>
-	
-	<body>
-		<header>
-			<h1>Jack Steel</h1>
-			<h2>Programming and Software Devolpment</h2>
-		</header>
-		
-		<!--Tablet, Desktop Nav-->
-			<nav>
-				<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="contacts.html">Contact</a></li>
-				<li><a href="favorites.html">Favorites</a></li>
-				<li><a href="hobbies.html">Hobbies</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				</ul>
-			</nav>
-		
-		<main>
-		
-			<section id="about">
-				
-				<h2>About Me</h2>
-				
-				<table id="hobbies">
-					<tr>
-						<th colspan="3">Hobbies</th>
-					</tr>
-					<tr>
-						<td>Video Games</td>
-						<td>Camping</td>
-						<td>Skiing</td>
-					</tr>
-				</table>
-				
-				<aside id="cedarPoint" class="tablet-desktop">
-					<figure class="frame">
-						<img src="images/cedarPoint.jpg" alt="5 people at Cedar Point">
-						<figcaption class="pic-text">Cedar Point with Friends</figcaption>
-					</figure>
-				</aside>
-				
-			</section>
-			
-		</main>
-		
-		<footer>
-			<p>&copy; Copyright 2024. All Rights Reserved.</p>
-			<p><a class="external" href="mailto:john.steel@stu.cvccworks.edu">john.steel@stu.cvccworks.edu</a></p>
-		</footer>
 
-		<script src="scripts/script.js"></script>
-	</body>
+<!--
+Names: Jack Steel, Luke Rinas, Anthony Youssef
+Date: 1/14/25
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage Fright - About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjord+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="mainNav navbar navbar-expand-md navbar-dark bg-dark flex-column">
+        <!-- Logo on Top -->
+        <div class="w-100 d-flex justify-content-center">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/wordArt.png" alt="Stage Fright" class="header_logo-img" itemprop="logo" width="345" height="90">
+          </a>
+        </div>
+        
+        <!-- Navbar links below logo -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-center w-100">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tour.html">Tour</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="merch.html">Merch</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid aboutColumns">
+        <div class="row mt-5">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-6">
+              <p class="text-justify">Anthony Youssef is the lead singer of our band stage fright, and face of the band. Ever since he was a kid, he has loved to sing. His parents told him how good his singing voice was, but he never believed them until everyone started complementing his voice. Only then did he realize that my true potential in life would be as lead singer for the band.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="images/Anthony.png" alt="Anthony" class="img-fluid" height="550px" width="513px">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-6">
+              <p class="text-justify">Luke Rinas leads the band with his steady drum beat. Luke loves drumming so much, that his hearing has started to go. That doesn't stop him from having the time of his life up on stage with his fellow band members in the greatest rock band ever, Stage Fright. Make sure to catch us on tour this year 2025.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="images/Luke.png" alt="Luke" class="img-fluid" height="550px" width="513px">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-6">
+              <p class="text-justify">Jack Steel is our main guitarist, leads the insturmentals with his creative rythms. Jack has always loved the guitar in any form, wether it be an accoustic guitar or even a ukulele. He loves anything with a string that makes noise. The only thing he loves more than string instruments is the rock band and eating lollipops.</p>
+            </div>
+            <div class="col-md-5">
+              <img src="images/Jack.png" alt="Jack" class="img-fluid" height="550px" width="513px">
+            </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-6">
+            <p class="text-justify">Sam Lombardo provides amazing chords and solos with his amazing keyboard playing. Sam had a rocky beginning in his musical career, with his limited talent in music. However, Sam kept practing day after day and made up for his shortcomings. Nowadays, Sam is one of the most talented keyboard players in the planet. Some even claim that he is the greatest of all time.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/Sam.png" alt="Sam" class="img-fluid" height="550px" width="513px">
+          </div>
+        </div>
+    </div>
+
+    <footer class="py-3 text-center">
+        <p>&copy; 2025 Stage Fright. All Rights Reserved.</p>
+        <div class="social-icons">
+          <!-- Add font awesome icons -->
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
