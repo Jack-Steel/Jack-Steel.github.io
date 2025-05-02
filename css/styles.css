@@ -121,7 +121,7 @@ main{
 
 
 
-#projects{
+.projects{
 	padding: 1%;
 }
 
@@ -350,14 +350,14 @@ footer p a{
 		padding-bottom: 2%;
 	}
 
-	#projects caption{
+	.projects caption{
 		color: white;
 		font-weight: bold;
 		font-size: 2.5em;
 		padding: 1%;
 	}
 	
-	#projects{
+	.projects{
 		background-color: rgb(16, 0, 193);
 		width: 90%;
 		top: 0;
@@ -368,37 +368,37 @@ footer p a{
 		box-shadow: 10px 10px 10px #022b53;
 	}
 	
-	#projects, #projects tr, #projects th, #projects td{ /*Positions the border*/
+	.projects, .projects tr, .projects th, .projects td{ /*Positions the border*/
 		border-collapse: collapse;
 		padding: 2%;
 		margin-top: 2%;
 	}
 	
-	#projects table, #projects tr, #projects th, #projects td{ /*Positions the border*/
+	.projects table, .projects tr, .projects th, .projects td{ /*Positions the border*/
 		border-collapse: collapse;
 		padding: 2%;
 		margin-top: 2%;
 	}
 	
-	#projects td{ /*Adds a border between the rows*/
+	.projects td{ /*Adds a border between the rows*/
 		border: 1px solid #0255a2;
 	}
 
-	#projects td a{
+	.projects td a{
 		font-weight: normal;
 		color: white;
 		text-align: center;
 	}
 
-	#projects td:hover{
+	.projects td:hover{
 		background-color: #9344e1;
 	}
 	
-	#projects tr:nth-child(odd){ /*Changes the color for every other row*/
+	.projects tr:nth-child(odd){ /*Changes the color for every other row*/
 		background-color: #277715;
 	}
 	
-	#projects th{
+	.projects th{
 		border: 1px solid white;
 		background-color: #03552f;
 		color: white;
